@@ -1,0 +1,299 @@
+/* 
+Template Name: Aytor
+Version: 1,0,0
+Author: Aytor
+Author URL: #
+
+Table of Content 
+__________________________________________
+    => Home Page
+        1) Nav Section
+        2) Banner Section
+        3) Gallery Section
+        4) New Arrival Section 
+        5)
+*/
+/* Common Css Start */
+body{
+    font-family: "Roboto", sans-serif;
+}
+h1,h2,h3,h4,h5,h6,a,button{
+    font-family: "Josefin Sans", sans-serif;
+}
+h1,h2,h3,h4,h5,h6,
+p,
+small,span,
+ul,ol{
+    margin: 0;
+    padding: 0;
+}
+ul,ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+/* Common Css End */
+/* Nav Section Css Start */
+nav #main_menu .nav-item a{
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 400;
+    color: #11161E ;
+    padding: 20px;
+}
+nav #main_menu #navbar_icon a{
+    height: ;
+    width: ;
+    padding: 15px;
+    color: #151A32;
+}
+nav #main_menu #navbar_icon ul li button{
+    position: relative;
+    background: none;
+    border: none;
+}
+nav #main_menu #navbar_icon ul li button span{
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    width: 15px;
+    height: 15px;
+    font-size: 14px;
+    border-radius: 50%;
+    background: #FF6F61;
+    display: inline-block;
+    text-align: center;
+    line-height: 15px;
+    color:white;
+}
+/* Nav Section Css End */
+/*  Banner Css Start */
+#banner .slider h4{
+    font-size: 18px;
+    color: white;
+    line-height: 28px;
+}
+#banner .slider h1{
+    font-size: 64px;
+    color: white;
+    line-height: 74px;
+    font-weight: bold;
+}
+#banner .slider p{
+    font-size: 16px;
+    color: white;
+    line-height: 28px;
+}
+#banner .slider .banner_slide_item{
+    height: 800px;
+    background-size: cover !important;
+    background-position: center !important;
+}
+#banner .slider ul{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    bottom: 250px;
+    left: 105px;
+}
+#banner .slider .slick-slider-dots li {
+    line-height: 0;
+    margin: 5px;
+}
+#banner .slider .slick-slider-dots li button {
+    font-size: 0;
+    border: none;
+    width: 10px;
+    height: 6px;
+    background-color: red;
+    border-radius: 5px;
+    transition: .3s;
+}
+#banner .slider .slick-slider-dots li.slick-active button {
+    width: 26px;
+    background-color: #FF6F61;
+}
+/*  Banner Css End */
+/* Gallery Section Css Start */
+
+#gallery .gallery{
+    margin: 100px auto;
+}
+#gallery .container{
+    height: 624px;
+}
+#gallery .gallery-item1 #gallery-content1{
+    height: 300px; 
+}
+#gallery .gallery-item1 #gallery-content2{  
+    height: 300px;
+    margin-top: 24px ;
+}
+#gallery .gallery-item2 #gallery-content3{
+    margin-left: 12px;
+}
+#gallery .gallery .gallery-content h3{
+    font-size: 36px;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+#gallery .gallery .gallery-content  a{
+    font-size: 18px;
+    color: white;
+    font-weight: 400;
+    font-family: "roboto";
+    margin-top: 20px;
+}
+#gallery .gallery .gallery-content{
+    position: relative;
+}
+#gallery .gallery .gallery-content .hover_content1{
+    background-color:rgba(21, 26, 50, 0.5);
+    position: absolute;
+    top: 20px;
+    bottom: 20px;
+    left: 30px;
+    right: 20px;
+    text-align: center;
+    transition: 0.6s;
+    opacity: 1;
+    visibility: hidden;
+}
+#gallery .gallery .gallery-content:hover .hover_content1{
+    opacity: 1;
+    visibility: visible;
+}
+#gallery .gallery .gallery-content .hover_content2 {
+    background-color:rgba(21, 26, 50, 0.5);
+    position: absolute;
+    top: 20px;
+    bottom: 20px;
+    left: 30px;
+    right: 20px;
+    text-align: center;
+    transition: 0.6s;
+    opacity: 0;
+    visibility: hidden;
+}
+#gallery .gallery .gallery-content:hover .hover_content2{
+    opacity: 1;
+    visibility: visible;
+}
+#gallery .gallery .gallery-content .hover_content3{
+    background-color:rgba(21, 26, 50, 0.5);
+    position: absolute;
+    top: 20px;
+    bottom: 20px;
+    left: 35px;
+    right: 10px;
+    text-align: center;
+    transition: 0.6s;
+    opacity: 0;
+    visibility: hidden;
+}
+#gallery .gallery .gallery-content:hover .hover_content3{
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Gallery Section Css End */
+/*  New Arrival Section Css Start  */
+
+#new-arrival .new-arrival-info{
+    border: 1px solid #F1F3F4;
+    text-align: center;
+    padding: 0px 0px ;
+}
+#new-arrival .new-arrival-info ins{
+    font-size: 16px;
+    color: #444444 ;
+    margin-right: 5px;
+}
+#new-arrival .new-arrival-info del{
+    font-size: 16px;
+    color: #BDBDBD ;
+    margin-left: 5px;
+}
+#new-arrival .new-arrival-info h3{
+    font-size: 25px;
+    padding: 13px 0px;
+    font-weight: 600;
+}
+#new-arrival .new-arrival-info i {
+    font-size: 12px;
+    color: #FF6F61;
+}
+#new-arrival .new-arrival-item{
+    position: relative;
+    padding: 0 12px;
+}
+#new-arrival .new-arrival-icon-overly{
+    position: absolute;
+    top: 44px;
+    right: 17px;
+    opacity: 0;
+    visibility: hidden;
+    transition: .4s;
+}
+#new-arrival .new-arrival-item:hover .new-arrival-icon-overly {
+    opacity: 1;
+    visibility: visible;
+}
+#new-arrival .new-arrival-badge{
+    position: absolute;
+    top: 10px;
+    left: 17px;
+    padding: 6px 10px;
+    background-color: #FF6F61;
+    transform: rotate(-90deg);
+    border-radius: 50% 0 0 50%;
+}
+#new-arrival .new-arrival-badge p{
+    line-height: 26px;
+    font-size: 16px;
+    color: white;
+    font-family: "Josefin Sans";
+    text-transform: capitalize;
+}
+#new-arrival .new-arrival-icon-overly ul li a {
+    width: 36px ;
+    height: 36px;
+    border-radius: 50%;
+    background-color: white;
+    display: inline-block;
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.08);
+    margin: 5px 0px;
+    text-align: center;
+    line-height: 36px;
+    transition: .5s;
+    color: #151A32;
+}
+#new-arrival .new-arrival-icon-overly ul li:hover a{
+    background-color: #FF6F61;
+    color: white;
+    box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.25);
+}
+#new-arrival .new-arrival-arrow{
+    background-color: rgba(21, 26, 50, 0.5);
+    color: white;
+    padding: 17px 9px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 99;
+}
+#new-arrival .new-arrival-arrow.fa-chevron-left{
+    left: 12px;
+}
+#new-arrival .new-arrival-arrow.fa-chevron-right{
+    right: 12px;
+}
+#new-arrival.new-arrival-slide{
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+/*  New Arrival Section Css End  */
